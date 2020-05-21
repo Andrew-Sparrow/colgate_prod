@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Colgate</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  <link rel="preload" href="fonts/colgatereadycyrillic.woff2" as="font" crossorigin="anonymous">
+  <link rel="preload" href="fonts/colgatereadycyrillic.woff" as="font" crossorigin="anonymous">
+  <link rel="preload" href="fonts/colgatereadycyrillic-bold.woff2" as="font" crossorigin="anonymous">
+  <link rel="preload" href="fonts/colgatereadycyrillic-bold.woff" as="font" crossorigin="anonymous">
+  <link rel="preload" href="fonts/colgatereadycyrilliclight.woff2" as="font" crossorigin="anonymous">
+  <link rel="preload" href="fonts/colgatereadycyrilliclight.woff" as="font" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+<header class="header">
+  <div class="header__container">
+    <a class="header__link">
+      <img class="header__logo" src="img/colgate-logo.png" width="135" height="68" alt="Логотип Колгейт">
+    </a>
+    <nav class="navigation">
+      <ul class="navigation__list navigation--nojs" id="nav-list">
+        <li class="navigation__item">
+          <a class="navigation__link navigation__link--active">Главная</a>
+        </li>
+        <li class="navigation__item">
+          <a class="navigation__link">О продукте</a>
+        </li>
+        <li class="navigation__item">
+          <a class="navigation__link">Призы</a>
+        </li>
+        <li class="navigation__item">
+          <a class="navigation__link">Победители</a>
+        </li>
+        <li class="navigation__item">
+          <a class="navigation__link">Faq</a>
+        </li>
+        <li class="navigation__item">
+          <a class="navigation__link"><span class="navigation__reg">Регистрация</span> | <span class="navigation__enter">Вход</span></a>
+        </li>
+      </ul>
+      <button class="header__button" onclick="myFunction()">
+        <img class="header__hamburger" src="img/burger3.svg" width="50" height="32" alt="кнопка меню">
+      </button>
+    </nav>
+  </div>
+</header>
+<main class="main">
+  <div class="main__container">
+    <section class="ready">
+      <p class="ready__question">А ты готов к новому?</p>
+      <ul class="actions">
+        <li class="actions__item">
+          <span class="actions__appeal">Купите</span>
+          <span class="actions__rest">зубную пасту</span>
+          <span class="actions__brand">Colgate Total</span>
+        </li>
+        <li class="actions__item">
+          <button class="actions__button">
+            <span class="actions__hidden">Загрузить чек</span>
+            <span class="actions__check">Загрузить чек</span>
+          </button>
+        </li>
+        <li class="actions__item">
+          <span class="actions__appeal">Выберите</span>
+          <span class="actions__rest">категорию приза</span>
+        </li>
+        <li class="actions__item">
+          <span class="actions__appeal">Участвуйте</span>
+          <span class="actions__rest">в розыгрыше призов</span>
+        </li>
+      </ul>
+      <ul class="icons">
+        <li class="icons__item">
+          <a class="icons__link" href="#">
+            <img class="icons__img icons__img--first" src="img/home.png" width="84" height="82" alt="иконка ссылки">
+          </a>
+        </li>
+        <li class="icons__item">
+          <a class="icons__link" href="#">
+            <img class="icons__img icons__img--second" src="img/car.png" width="84" height="82" alt="иконка ссылки">
+          </a>
+        </li>
+        <li class="icons__item">
+          <a class="icons__link" href="#">
+            <img class="icons__img" src="img/bt.png" width="84" height="82" alt="иконка ссылки">
+          </a>
+        </li>
+        <li class="icons__item">
+          <a class="icons__link" href="#">
+            <img class="icons__img" src="img/phone.png" width="84" height="82" alt="иконка ссылки">
+          </a>
+        </li>
+        <li class="icons__item">
+          <a class="icons__link" href="#">
+            <img class="icons__img" src="img/shopping.png" width="87" height="87" alt="иконка ссылки">
+          </a>
+        </li>
+        <li class="icons__item">
+          <a class="icons__link" href="#">
+            <img class="icons__img" src="img/travel.png" width="93" height="92" alt="иконка ссылки">
+          </a>
+        </li>
+      </ul>
+    </section>
+    <section class="formula">
+      <p class="formula__headline">
+        <span class="formula__new">Новая</span>
+        <span class="formula__forward">Передовая формула</span>
+      </p>
+      <picture class="formula__picture">
+        <source type="image/webp" srcset="img/ctotal_mint.webp">
+        <img class="formula__image" width="481" height="389" src="img/ctotal_mint.png" alt="изображение зубной пасты">
+      </picture>
+    </section>
+  </div>
+</main>
+<footer class="footer">
+  <div class="footer__container">
+    <ul class="footer__items">
+      <li class="footer__item">
+        <a class="footer__link">Правила акции</a>
+      </li>
+      <li class="footer__item">
+        <a class="footer__link">Пользовательское соглашение</a>
+      </li>
+      <li class="footer__item">
+        <a class="footer__link">Обратная связь</a>
+      </li>
+    </ul>
+    <p class="footer__paragraph">
+      Для участия в акции необходимо приобрести любую зубную пасту Colgate Total и загрузить чек на сайте www.colgate-total.ru. Срок проведения акции, включая выдачу призов с 26 апреля 2019 г.
+      по 30 августа 2019 г. период совершения покупок и подачи заявок на участие в Акции с 26 апреля 2019 г. по 05 июля 2019 г. включительно. Организатор акции – ООО «АРМ».
+      Информация об организаторе акции, о правилах её проведения, сроках, количестве призов месте и порядке их получения размещена на www.colgate-total.ru
+    </p>
+  </div>
+</footer>
+
+<script>
+  var navigation = document.querySelector('.navigation');
+
+  navigation.classList.remove('navigation--nojs');
+
+  function myFunction() {
+    var nav = document.getElementById("nav-list");
+    if (nav.style.display === "block") {
+      nav.style.display = "none";
+    }
+    else {
+      nav.style.display = "block";
+    }
+  }
+</script>
+
+</body>
+</html>
